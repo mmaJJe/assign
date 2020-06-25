@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-image: url("../img/pp.png");
+    background-size: cover;                 
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wrapper{
+    grid-column: 1 / 1;
+    margin: 10% ;
+    background-color: rgba(0,0,0,0.5);
+    width: 50%;
+    padding: 50px 100px;
+}
+.footer{
+    width: 100%;
+    height: 200px;
+    background-color:#000000
+}
+
+a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.top h1{
+    margin-bottom: 50px ;
+    font-size: 300%;
+}
+.button{
+    margin-bottom: 50px ;
+}
+
+p, h1{
+    color: #ffffff;
+}
+
+
+button{
+    all: unset;
+    padding:  25px 50px;
+    border: solid 3px #ffffff;
+    color: #fff;
+    background-color: #000000;
+    transition: ease 0.5s;
+}
+
+button:hover{
+    border: solid 3px #000000;
+}

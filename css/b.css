@@ -1,0 +1,79 @@
+body{
+    background-color: #000000;
+    margin: 0;
+}
+.navbar{
+    height: 50px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+}
+a:hover{
+    color: #fff;
+    background-color: #000;
+}
+
+.nav-link{
+    box-sizing: border-box;
+    height: 100%;
+    text-decoration: none;
+    text-align: center;
+    padding: 12px 12px;
+}
+.main-title{
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+    border-bottom: solid 3px #fff;
+    color: #fff;
+    font-size: 50px;
+    margin: 100px auto;
+}
+
+.main-title h1{
+    font-size: 300%;
+}
+
+.post{
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 100px;
+    padding: 30px;
+    border: solid 2px #fff;
+}
+
+.post-title{
+    margin: 10px 0px;
+    font-size: 50px;
+}
+
+.content{
+    margin: 0 auto;
+    width: 50%;
+    font-size: 20px;
+}
+
+.rating{
+    font-size: 25px;
+}
+
+.imgbox img{
+    width:50%;
+    transition: ease 0.9s;
+}
+
+.explain{
+    height: 0;
+    overflow: hidden;
+    transition: ease 0.9s;
+}
+
+.imgbox:hover ~ .explain{
+    height: 300px;
+}
